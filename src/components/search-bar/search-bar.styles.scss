@@ -1,0 +1,40 @@
+.search-bar-container {
+	margin: auto;
+	position: relative;
+	width: fit-content;
+
+	.search-bar-icon {
+		position: absolute;
+		left: 10px;
+		height: 23px;
+		width: 23px;
+		top: 12px;
+		opacity: 0.4;
+	}
+
+	.search-bar {
+		padding: 10px 10px 10px 45px;
+		margin-bottom: 20px;
+		width: 300px;
+		font-size: 16px;
+		border-radius: 30px;
+		border: unset;
+		outline: unset;
+		line-height: 30px;
+		box-shadow: 0px 0px 5px #6d6d6d;
+
+		&::placeholder {
+			opacity: 0.4;
+		}
+	}
+
+	.delete-icon {
+		position: absolute;
+		right: 10px;
+		height: 30px;
+		width: 30px;
+		top: 10px;
+		opacity: 0.3;
+		cursor: pointer;
+	}
+}
