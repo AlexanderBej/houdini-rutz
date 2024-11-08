@@ -155,5 +155,175 @@ export const routesData = [
             location: 'Farm House'
         }
     },
+    {
+        id: 13,
+        frequency: 13,
+        material: 'Screws',
+        from: {
+            name: 'Source',
+            location: '1D'
+        },
+        to: {
+            name: 'Multiple',
+            location: '2X'
+        }
+    },
+	  {
+        id: 14,
+        frequency: 14,
+        material: 'Screws',
+        from: {
+            name: 'Source',
+            location: '1D'
+        },
+        to: {
+            name: 'Heavy Modular Frame',
+            location: '2X'
+        }
+    },
+	{
+        id: 15,
+        frequency: 15,
+        material: 'Iron Plates',
+        from: {
+            name: 'Source',
+            location: '1E'
+        },
+        to: {
+            name: 'Reinforced Iron Plates',
+            location: '2X'
+        }
+    },
+	{
+        id: 16,
+        frequency: 16,
+        material: 'Iron Rods',
+        from: {
+            name: 'Source',
+            location: '1F'
+        },
+        to: {
+            name: 'Multiple',
+            location: '2X'
+        }
+    },
+	{
+        id: 17,
+        frequency: 17,
+        material: 'Cable',
+        from: {
+            name: 'Source',
+            location: '1G'
+        },
+        to: {
+            name: 'Multiple',
+            location: '2X'
+        }
+    },
+	{
+        id: 18,
+        frequency: 18,
+        material: 'Concrete',
+        from: {
+            name: 'Source',
+            location: '1C'
+        },
+        to: {
+            name: 'Encased Industrial Beams',
+            location: '2X'
+        }
+    },
+	{
+        id: 19,
+        frequency: 19,
+        material: 'Wire',
+        from: {
+            name: 'Source',
+            location: '1H'
+        },
+        to: {
+            name: 'Stator',
+            location: '2X'
+        }
+    },
+	{
+        id: 20,
+        frequency: 20,
+        material: 'Steel Pipe',
+        from: {
+            name: 'Source',
+            location: '1K'
+        },
+        to: {
+            name: 'Multiple',
+            location: '2X'
+        }
+    },
+	{
+        id: 21,
+        frequency: 21,
+        material: 'Steel Beam',
+        from: {
+            name: 'Source',
+            location: '1K'
+        },
+        to: {
+            name: 'Multiple',
+            location: '2X'
+        }
+    },
+	{
+        id: 22,
+        frequency: 22,
+        material: 'Copper Sheet',
+        from: {
+            name: 'Source',
+            location: '1I'
+        },
+        to: {
+            name: 'Multiple',
+            location: '2X'
+        }
+    },
+	{
+        id: 23,
+        frequency: 23,
+        material: 'Quickwire',
+        from: {
+            name: 'Source',
+            location: '1X'
+        },
+        to: {
+            name: 'AI Limiter',
+            location: '2X'
+        }
+    },
+	{
+        id: 24,
+        frequency: 24,
+        material: 'Polymer Resin',
+        from: {
+            name: 'Fuel Generators',
+            location: 'Fuel Generators'
+        },
+        to: {
+            name: 'Plastic & Rubber',
+            location: '1X'
+        }
+    },
+	
+	{
+        id: 25,
+        frequency: 25,
+        material: 'Plastic',
+        from: {
+            name: 'Plastic',
+            location: '1X'
+        },
+        to: {
+            name: 'Multiple',
+            location: '2X'
+        }
+    },
    
 ]
