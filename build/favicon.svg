@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="190" height="234"><svg id="SvgjsSvg1003" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 190 234">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #525b5d;
+      }
+    </style>
+    <linearGradient id="SvgjsLinearGradient1002" x1="95.97" y1="8.79" x2="95.97" y2="224.68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"></stop>
+      <stop offset=".47" stop-color="#fdfdfe"></stop>
+      <stop offset=".64" stop-color="#f6f9fb"></stop>
+      <stop offset=".76" stop-color="#eaf0f6"></stop>
+      <stop offset=".86" stop-color="#d9e5ef"></stop>
+      <stop offset=".94" stop-color="#c3d6e6"></stop>
+      <stop offset="1" stop-color="#b0c9de"></stop>
+    </linearGradient>
+  </defs>
+  <rect class="cls-2" width="190" height="234"></rect>
+  <path class="cls-1" d="M169.48,19.27c6.98,6.98,10.47,15.36,10.47,25.15V224.68h-47.06V55.86H59.06V224.68H12V8.79H144.33c9.79,0,18.17,3.49,25.15,10.47ZM72.88,57.58l47.06,12.95V224.68h-47.06V57.58Z"></path>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
