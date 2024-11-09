@@ -360,7 +360,7 @@ export const routesData = [
             location: '2X'
         },
         to: {
-            name: '',
+            name: 'Smart Plating',
             location: '2X'
         }
     },
@@ -373,7 +373,7 @@ export const routesData = [
             location: '2X'
         },
         to: {
-            name: '',
+            name: 'Smart Plating',
             location: '2X'
         }
     },
