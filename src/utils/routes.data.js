@@ -158,20 +158,20 @@ export const routesData = [
     {
         id: 13,
         frequency: 13,
-        material: 'Screws',
+        material: 'Screw',
         from: {
             name: 'Source',
             location: '1D'
         },
         to: {
-            name: 'Multiple',
+            name: 'Reinforced Iron Plates',
             location: '2X'
         }
     },
 	  {
         id: 14,
         frequency: 14,
-        material: 'Screws',
+        material: 'Screw',
         from: {
             name: 'Source',
             location: '1D'
@@ -184,7 +184,7 @@ export const routesData = [
 	{
         id: 15,
         frequency: 15,
-        material: 'Iron Plates',
+        material: 'Iron Plate',
         from: {
             name: 'Source',
             location: '1E'
@@ -197,7 +197,7 @@ export const routesData = [
 	{
         id: 16,
         frequency: 16,
-        material: 'Iron Rods',
+        material: 'Iron Rod',
         from: {
             name: 'Source',
             location: '1F'
@@ -400,6 +400,19 @@ export const routesData = [
         },
         to: {
             name: 'Versatile Framework',
+            location: '2X'
+        }
+    },
+	{
+        id: 32,
+        frequency: 32,
+        material: 'Screw',
+        from: {
+            name: 'Source',
+            location: '1D'
+        },
+        to: {
+            name: 'Rotor',
             location: '2X'
         }
     },
