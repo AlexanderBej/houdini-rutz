@@ -325,5 +325,82 @@ export const routesData = [
             location: '2X'
         }
     },
-   
+   {
+        id: 26,
+        frequency: 26,
+        material: 'Smart Plating',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Modular Engine',
+            location: '2X'
+        }
+    },
+	{
+        id: 27,
+        frequency: 27,
+        material: 'Motor',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Modular Engine',
+            location: '2X'
+        }
+    },
+	{
+        id: 28,
+        frequency: 28,
+        material: 'Rotor',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: '',
+            location: '2X'
+        }
+    },
+	{
+        id: 29,
+        frequency: 29,
+        material: 'Reinforced Iron Plate',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: '',
+            location: '2X'
+        }
+    },
+	{
+        id: 30,
+        frequency: 30,
+        material: 'Modular Frame',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Heavy Modular Frame',
+            location: '2X'
+        }
+    },
+	{
+        id: 31,
+        frequency: 31,
+        material: 'Modular Frame',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Versatile Framework',
+            location: '2X'
+        }
+    },
 ]
