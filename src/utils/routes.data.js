@@ -429,4 +429,69 @@ export const routesData = [
             location: '2X'
         }
     },
+	{
+        id: 34,
+        frequency: 34,
+        material: 'Sulfur Ore',
+        from: {
+            name: 'Mine',
+            location: 'Sulfure Ore Node'
+        },
+        to: {
+            name: '',
+            location: ''
+        }
+    },
+	{
+        id: 35,
+        frequency: 35,
+        material: 'Computer',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Adaptive Control Unit',
+            location: '2X'
+        }
+    },
+	{
+        id: 36,
+        frequency: 36,
+        material: 'Heavy Modular Frame',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Adaptive Control Unit',
+            location: '2X'
+        }
+    },
+	{
+        id: 37,
+        frequency: 37,
+        material: 'Automated Wiring',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Adaptive Control Unit',
+            location: '2X'
+        }
+    },
+	{
+        id: 38,
+        frequency: 38,
+        material: 'Circuit Board',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Adaptive Control Unit',
+            location: '2X'
+        }
+    },
 ]
