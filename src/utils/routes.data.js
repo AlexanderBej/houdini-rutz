@@ -416,4 +416,17 @@ export const routesData = [
             location: '2X'
         }
     },
+	{
+        id: 33,
+        frequency: 33,
+        material: 'Rotor',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Motor',
+            location: '2X'
+        }
+    },
 ]
