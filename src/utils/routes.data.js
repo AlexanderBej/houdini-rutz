@@ -494,4 +494,56 @@ export const routesData = [
             location: '2X'
         }
     },
+	{
+        id: 39,
+        frequency: 39,
+        material: 'Bauxite',
+        from: {
+            name: 'Mine',
+            location: 'Bauxite Node'
+        },
+        to: {
+            name: 'Aluminum',
+            location: '1X'
+        }
+    },
+	{
+        id: 40,
+        frequency: 40,
+        material: 'Raw Quartz',
+        from: {
+            name: 'Mine',
+            location: 'Raw Quartz Node'
+        },
+        to: {
+            name: 'Silica',
+            location: '1X'
+        }
+    },
+	{
+        id: 41,
+        frequency: 41,
+        material: 'Copper Ore',
+        from: {
+            name: 'Mine',
+            location: 'Copper Ore Node'
+        },
+        to: {
+            name: 'Aluminum Sheet',
+            location: '1X'
+        }
+    },
+	{
+        id: 42,
+        frequency: 42,
+        material: 'Coal Ore',
+        from: {
+            name: 'Mine',
+            location: 'Coal Ore Node'
+        },
+        to: {
+            name: 'Aluminum Scrap',
+            location: '1X'
+        }
+    },
 ]
