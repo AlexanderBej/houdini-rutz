@@ -546,4 +546,82 @@ export const routesData = [
             location: '1X'
         }
     },
+	{
+        id: 43,
+        frequency: 43,
+        material: 'Quartz Crystal',
+        from: {
+            name: 'Source',
+            location: '1X'
+        },
+        to: {
+            name: 'Crystal Oscillator',
+            location: '2X'
+        }
+    },
+	{
+        id: 44,
+        frequency: 44,
+        material: 'Cable',
+        from: {
+            name: 'Source',
+            location: '1X'
+        },
+        to: {
+            name: 'Crystal Oscillator',
+            location: '2X'
+        }
+    },
+	{
+        id: 45,
+        frequency: 45,
+        material: 'Reinforced Iron Plate',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Crystal Oscillator',
+            location: '2X'
+        }
+    },
+	{
+        id: 46,
+        frequency: 46,
+        material: 'Quickwire',
+        from: {
+            name: 'Source',
+            location: '1X'
+        },
+        to: {
+            name: 'High-Speed Connector',
+            location: '2X'
+        }
+    },
+	{
+        id: 47,
+        frequency: 47,
+        material: 'Cable',
+        from: {
+            name: 'Source',
+            location: '1X'
+        },
+        to: {
+            name: 'High-Speed Connector',
+            location: '2X'
+        }
+    },
+	{
+        id: 48,
+        frequency: 48,
+        material: 'Cicuit Board',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'High-Speed Connector',
+            location: '2X'
+        }
+    },
 ]
