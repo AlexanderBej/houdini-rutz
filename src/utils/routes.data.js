@@ -638,4 +638,17 @@ export const routesData = [
             location: '2X'
         }
     },
+	{
+        id: 50,
+        frequency: 50,
+        material: 'Cable',
+        from: {
+            name: 'Source',
+            location: '1X'
+        },
+        to: {
+            name: 'Computer',
+            location: '2X'
+        }
+    },
 ]
