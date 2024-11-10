@@ -624,4 +624,18 @@ export const routesData = [
             location: '2X'
         }
     },
+
+	{
+        id: 49,
+        frequency: 49,
+        material: 'Plastic',
+        from: {
+            name: 'Source',
+            location: '1X'
+        },
+        to: {
+            name: 'Computer',
+            location: '2X'
+        }
+    },
 ]
