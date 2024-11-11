@@ -64,4 +64,17 @@ export const flowsData = [
             location: '1X'
         }
     },
+     {
+        id: 6,
+        frequency: 'ACID 1',
+        material: 'Sulfuric Acid',
+        from: {
+            name: 'Sulfuric Acid',
+            location: '1X'
+        },
+        to: {
+            name: 'Encased Uranium Cell',
+            location: '1U'
+        }
+    },
 ]
