@@ -664,4 +664,17 @@ export const routesData = [
             location: ''
         }
     },
+	{
+        id: 52,
+        frequency: 52,
+        material: 'Concrete',
+        from: {
+            name: 'Concrete',
+            location: '1X'
+        },
+        to: {
+            name: 'Encased Uranium Cell',
+            location: '1U'
+        }
+    },
 ]
