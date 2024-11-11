@@ -51,4 +51,17 @@ export const flowsData = [
             location: '1X'
         }
     },
+     {
+        id: 5,
+        frequency: 'WATER 2',
+        material: 'Water',
+        from: {
+            name: 'Extractor',
+            location: 'Water Pumps'
+        },
+        to: {
+            name: 'Sulfuric Acid',
+            location: '1X'
+        }
+    },
 ]
