@@ -651,4 +651,17 @@ export const routesData = [
             location: '2X'
         }
     },
+	{
+        id: 51,
+        frequency: 51,
+        material: 'Uranium Ore',
+        from: {
+            name: 'Mine',
+            location: 'Uranium Ore Node'
+        },
+        to: {
+            name: '',
+            location: ''
+        }
+    },
 ]
