@@ -65,16 +65,16 @@ export const flowsData = [
         }
     },
      {
-        id: 6,
-        frequency: 'ACID 1',
-        material: 'Sulfuric Acid',
+        id: 7,
+        frequency: 'WATER 3',
+        material: 'Water',
         from: {
-            name: 'Sulfuric Acid',
+            name: 'Water Pumps',
             location: '1X'
         },
         to: {
-            name: 'Encased Uranium Cell',
-            location: '1U'
+            name: 'Nuclear Reactor',
+            location: '1X'
         }
     },
 ]
