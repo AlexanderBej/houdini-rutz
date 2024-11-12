@@ -677,4 +677,56 @@ export const routesData = [
             location: '1U'
         }
     },
+	{
+        id: 53,
+        frequency: 53,
+        material: 'Stator',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Electromagnetic Control Rod',
+            location: '2X'
+        }
+    },
+	{
+        id: 54,
+        frequency: 54,
+        material: 'AI Limiter',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Electromagnetic Control Rod',
+            location: '2X'
+        }
+    },
+	{
+        id: 55,
+        frequency: 55,
+        material: 'Encased Industrial Beam',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Uranium Fuel Rod',
+            location: '1U'
+        }
+    },
+	{
+        id: 56,
+        frequency: 56,
+        material: 'Electromagnetic Control Rod',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Uranium Fuel Rod',
+            location: '1U'
+        }
+    },
 ]
