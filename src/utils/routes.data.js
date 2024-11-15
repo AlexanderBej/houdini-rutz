@@ -729,4 +729,30 @@ export const routesData = [
             location: '1U'
         }
     },
+	{
+        id: 57,
+        frequency: 57,
+        material: 'Uranium Fuel Rod',
+        from: {
+            name: 'Uranium Fuel Rod',
+            location: '1U'
+        },
+        to: {
+            name: 'Nuclear Reactors',
+            location: 'Nuclear Reactors'
+        }
+    },
+	{
+        id: 58,
+        frequency: 58,
+        material: 'Jar of Bog Earth',
+        from: {
+            name: 'Mine',
+            location: 'Jar of Bog Earth Node'
+        },
+        to: {
+            name: 'Farm',
+            location: 'Farm'
+        }
+    },
 ]
