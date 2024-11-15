@@ -755,4 +755,17 @@ export const routesData = [
             location: 'Farm'
         }
     },
+	{
+        id: 59,
+        frequency: 59,
+        material: 'Jar of Peat Soil',
+        from: {
+            name: 'Mine',
+            location: 'Jar of Peat Soil Node'
+        },
+        to: {
+            name: 'Farm',
+            location: 'Farm'
+        }
+    },
 ]
