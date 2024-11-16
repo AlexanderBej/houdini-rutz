@@ -669,7 +669,7 @@ export const routesData = [
         frequency: 52,
         material: 'Concrete',
         from: {
-            name: 'Concrete',
+            name: 'Source',
             location: '1X'
         },
         to: {
@@ -734,7 +734,7 @@ export const routesData = [
         frequency: 57,
         material: 'Uranium Fuel Rod',
         from: {
-            name: 'Uranium Fuel Rod',
+            name: 'Source',
             location: '1U'
         },
         to: {
@@ -766,6 +766,97 @@ export const routesData = [
         to: {
             name: 'Farm',
             location: 'Farm'
+        }
+    },
+	{
+        id: 60,
+        frequency: 60,
+        material: 'Computer',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Radio Control Unit',
+            location: '3X'
+        }
+    },
+	{
+        id: 61,
+        frequency: 61,
+        material: 'Crystal Oscillator',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Radio Control Unit',
+            location: '3X'
+        }
+    },
+	{
+        id: 62,
+        frequency: 62,
+        material: 'Aluminum Casing',
+        from: {
+            name: 'Source',
+            location: '1X'
+        },
+        to: {
+            name: 'Radio Control Unit',
+            location: '3X'
+        }
+    },
+	{
+        id: 63,
+        frequency: 63,
+        material: 'Computer',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Supercomputer',
+            location: '3X'
+        }
+    },
+	{
+        id: 64,
+        frequency: 64,
+        material: 'AI Limiter',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Supercomputer',
+            location: '3X'
+        }
+    },
+	{
+        id: 65,
+        frequency: 65,
+        material: 'High-Speed Connector',
+        from: {
+            name: 'Source',
+            location: '2X'
+        },
+        to: {
+            name: 'Supercomputer',
+            location: '3X'
+        }
+    },
+	{
+        id: 66,
+        frequency: 66,
+        material: 'Plastic',
+        from: {
+            name: 'Source',
+            location: '1X'
+        },
+        to: {
+            name: 'Supercomputer',
+            location: '3X'
         }
     },
 ]
