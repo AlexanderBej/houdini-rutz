@@ -859,4 +859,17 @@ export const routesData = [
             location: '3X'
         }
     },
+	{
+        id: 67,
+        frequency: 67,
+        material: 'Nuclear Waste',
+        from: {
+            name: 'Source',
+            location: 'Nuclear Reactors'
+        },
+        to: {
+            name: 'Nuclear Waste Storage Facility',
+            location: 'Waste Storage Inc.'
+        }
+    },
 ]
