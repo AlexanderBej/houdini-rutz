@@ -872,4 +872,17 @@ export const routesData = [
             location: 'Waste Storage Inc.'
         }
     },
+	{
+        id: 68,
+        frequency: 68,
+        material: 'SAM Ore',
+        from: {
+            name: 'Mine',
+            location: 'SAM Ore Node'
+        },
+        to: {
+            name: '',
+            location: ''
+        }
+    },
 ]
