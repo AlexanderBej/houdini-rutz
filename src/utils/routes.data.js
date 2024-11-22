@@ -885,4 +885,30 @@ export const routesData = [
             location: ''
         }
     },
+	{
+        id: 69,
+        frequency: 69,
+        material: 'Alclad Aluminum Sheet',
+        from: {
+            name: 'Source',
+            location: '1X'
+        },
+        to: {
+            name: 'Heat Sink',
+            location: '3X'
+        }
+    },
+	{
+        id: 70,
+        frequency: 70,
+        material: 'Copper Sheet',
+        from: {
+            name: 'Source',
+            location: '1X'
+        },
+        to: {
+            name: 'Heat Sink',
+            location: '3X'
+        }
+    },
 ]
