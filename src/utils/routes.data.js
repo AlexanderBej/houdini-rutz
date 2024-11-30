@@ -911,4 +911,17 @@ export const routesData = [
             location: '3X'
         }
     },
+	{
+        id: 71,
+        frequency: 71,
+        material: 'Copper Ore',
+        from: {
+            name: 'Source',
+            location: 'Copper Ore Node'
+        },
+        to: {
+            name: 'Copper powder',
+            location: '3X'
+        }
+    },
 ]
