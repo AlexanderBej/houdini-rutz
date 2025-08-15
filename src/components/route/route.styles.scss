@@ -5,8 +5,9 @@
 	padding: 10px;
 	border-radius: $border-radius;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow-x: scroll;
-	width: 850px;
+    overflow: scroll;
+	width: 550px;
+	height: 550px;
 	margin: auto;
 
 	.search-bar-container {
@@ -29,7 +30,7 @@
 			}
 
 			.header-frequency {
-				width: 150px;
+				width: 50px;
 			}
 
 			.header-material {
@@ -75,7 +76,7 @@
 			}
 
 			.data-frequency {
-				width: 150px;
+				width: 50px;
 				text-align: center;
 			}
 
