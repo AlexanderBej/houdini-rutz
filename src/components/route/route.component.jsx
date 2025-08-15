@@ -27,7 +27,7 @@ const Route = ({ data, type }) => {
 			<table className="routes-table">
 				<thead className="table-head">
 					<tr>
-						<th className="header-frequency">{type === 'route' ? 'Frequency' : 'Name'}</th>
+						<th className="header-frequency">{type === 'route' ? 'Freq' : 'Name'}</th>
 						<th className="header-material">Material</th>
 						<th className="header-from">From</th>
 						<th className="header-to">To</th>
