@@ -1,0 +1,37 @@
+
+/* Panel container */
+.exp-panel {
+  
+
+  /* Header row */
+  .exp-panel-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px;
+    width: 100%;
+  }
+
+  /* Content area with smooth expand */
+  .exp-panel-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-in-out;
+
+    .exp-panel-contentInner {
+      padding: 12px;
+      opacity: 0.96;
+    }
+  }
+
+  &.no-bg {
+    background: unset;
+    border: unset;
+    box-shadow: unset;
+
+    .exp-panel-header {
+      padding: 0;
+    }
+  }
+}

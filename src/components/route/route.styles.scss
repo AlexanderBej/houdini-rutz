@@ -6,9 +6,11 @@
 	border-radius: $border-radius;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: scroll;
-	width: 550px;
-	height: 550px;
+	// width: 550px;
+	// height: 450px;
 	margin: auto;
+	    overflow: hidden;
+    width: 50%;
 
 	.search-bar-container {
 		margin: 0;
@@ -56,7 +58,7 @@
 			height: 65vh;
 			overflow-y: auto;
 			overflow-x: hidden;
-			width: min-content;
+			// width: min-content;
 
 			tr {
 				border-bottom: 1px solid #e0e0e0;

@@ -3,6 +3,7 @@ import { useState } from "react";
 import SearchBar from "../search-bar/search-bar.component";
 
 import "./route.styles.scss";
+import ExpansionPanel from "../expansion-panel/expansion-panel.component";
 
 const Route = ({ data, type }) => {
 	const [selectedRoute, setSelectedRoute] = useState(null);
@@ -22,6 +23,7 @@ const Route = ({ data, type }) => {
 	);
 
 	return (
+
 		<div className="routes-container">
 			<SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} placeholder={`Search for a ${type}`} />
 			<table className="routes-table">
@@ -65,6 +67,7 @@ const Route = ({ data, type }) => {
 				</tbody>
 			</table>
 		</div>
+
 	);
 };
 
